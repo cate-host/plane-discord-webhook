@@ -40,3 +40,10 @@ yarn-error.log*
 **/*.log
 package-lock.json
 **/*.bun
+
+# lets not put env files in the .gitignore yeah that would be funny
+.env
+# fuck i forgot the db stuff
+plane.db
+plane.db-shm
+plane.db-wal

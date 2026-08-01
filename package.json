@@ -1,15 +1,12 @@
 {
   "name": "plane-discord-webhook",
-  "version": "1.0.50",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "bun run --watch src/index.ts"
-  },
-  "dependencies": {
-    "elysia": "latest"
-  },
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
   "devDependencies": {
-    "bun-types": "latest"
+    "@types/bun": "latest"
   },
-  "module": "src/index.js"
+  "peerDependencies": {
+    "typescript": "^5"
+  }
 }
